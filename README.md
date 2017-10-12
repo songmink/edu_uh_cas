@@ -16,7 +16,7 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 
     #'django_cas_ng.backends.CASBackend',
-    'edu_uh_cas.backends.UHCASBackend',
+    '<your_location>.backends.UHCASBackend',
 ]
 ```
 ### Notes
