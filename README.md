@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 This is a django authentication backend for University of Hawaii CAS authentication. All settings are same as the [django-cas-ng](https://github.com/mingchen/django-cas-ng).
 
 ### Installation
-Install the [django-cas-ng](https://github.com/mingchen/django-cas-ng) and set its settings. Copy this backend as an app on your django project. Config your own attributes on the 'configure_user()'.
+Install the [django-cas-ng](https://github.com/mingchen/django-cas-ng) and set its settings. Copy this backend as an app on your django project or under your app. Config your own attributes on the 'configure_user()'.
 Change your settings,
 ```python
 AUTHENTICATION_BACKENDS = [
